@@ -1,0 +1,208 @@
+
+
+body {
+    background-color: #343F4F;
+    border-left: 4mm ridge #FC6D6D;
+    border-right: 4mm ridge #FC6D6D;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    padding-left: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    align-items: center;
+    color: white;
+    height: 5.625rem;
+    line-height: 5.625rem;
+    margin: 5rem 0;
+}
+
+h2 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+span {
+    color: #FC6D6D;
+    padding: 1rem;
+}
+
+img {
+    border-radius: 2%;
+}
+
+.container-fluid {
+    align-items: center;
+    justify-content: center;
+    padding: 7% 4%;
+    text-align: center;
+}
+
+/* Navigation Bar  */
+
+nav {
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: 4rem;
+}
+
+nav .scrolled {
+    background-color: rgb(222,192,222);
+    position: sticky;
+    transition: background 500ms;
+}
+
+.nav-item {
+    color: white;
+    height: 5rem;
+    padding: 1rem;
+}
+
+.nav-item:hover {
+    color: #FC6D6D;
+}
+
+/* Projects CSS Section  */
+
+.card {
+    background-color: #343F4F;
+    border: none;
+    color: white;
+    width: 25rem;
+}
+
+.btn {
+    background-color: #FC6D6D;
+    color: white;
+}
+
+.btn:hover {
+    border-color: #FC6D6D;
+    color:#FC6D6D;
+}
+
+/* About Me Section  */
+
+#about p {
+    color: white;
+    font-size: 1.5rem;
+    padding: 5rem 0;
+}
+
+.aboutMeImage {
+    width: 18.5rem;
+}
+
+/* Skills Section  */
+
+#skills i {
+    font-size: 5rem;
+}
+
+.skill-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* .icon-container {
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10rem;
+    justify-content: space-evenly;
+    line-height: 1.5;
+}
+
+.icon {
+    padding: 20px; */
+
+/* Footer Section  */
+
+#footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer-icons {
+    color: #212529;
+    margin: 2rem 1rem;
+    padding: 2rem;
+}
+
+
+/* Typing Animation */
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper .dynamic-txts {
+    /* background: red; */
+    height: 5.625rem;
+    line-height: 5.625rem;
+    margin-left: 1rem;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    animation: slide 8s steps(4) infinite;
+    color: #FC6D6D;
+    font-size: 3.75rem;
+    font-weight: 500;
+    list-style: none;
+    position: relative;
+    top: 0;
+}
+
+@keyframes slide {
+    100% {
+        top: -22.5rem;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+}
+
+.dynamic-txts li span::after {
+    animation: typing 2s steps(9) infinite;
+    background: #343F4F;
+    border-left: 2px solid #FC6D6D;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
