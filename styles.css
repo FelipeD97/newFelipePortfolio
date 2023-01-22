@@ -119,41 +119,25 @@ nav .scrolled {
 /* Skills Section  */
 
 #skills i {
-    font-size: 5rem;
+    font-size: 10rem;
+    padding: 1.5rem;
 }
 
 .skill-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-/* .icon-container {
-    border-radius: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 10rem;
-    justify-content: space-evenly;
     line-height: 1.5;
 }
 
-.icon {
-    padding: 20px; */
-
 /* Footer Section  */
 
-#footer {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-footer-icons {
-    color: #212529;
+.footer-icons {
+    color: #FC6D6D;
+    font-size: 3rem;
     margin: 2rem 1rem;
     padding: 2rem;
 }
-
 
 /* Typing Animation */
 
